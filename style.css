@@ -3,3 +3,72 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* Center header text */
+header h1 {
+  text-align: center;
+}
+
+/* Style the navigation bar */
+header nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+header nav a {
+  padding: 0 10px;
+  background-color: grey;  /* you can change this color */
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+header nav a:hover {
+  background-color: darkgrey;
+}
+
+/* Center the featured image */
+#featured-property figure {
+  text-align: center;
+}
+
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+}
+
+/* Style the image caption */
+#featured-property figcaption {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 5px;
+  color: #555;
+}
+
+/* Style the paragraphs under the image */
+#featured-property p {
+  width: 800px;
+  margin: 15px auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Footer details section */
+#details {
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: red;  /* you can change this */
+  color: white;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+
