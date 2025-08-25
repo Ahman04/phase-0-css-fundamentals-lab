@@ -1,74 +1,73 @@
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+  width: 100%;       /* Make the body span the full width of the page */
+  height: 100%;      /* Make the body span the full height of the page */
+  margin: 0;         /* Remove default browser margin around the body */
 }
 
 /* Center header text */
 header h1 {
-  text-align: center;
+  text-align: center;   /* Align the header title in the middle */
 }
 
 /* Style the navigation bar */
 header nav {
-  text-align: center;
-  margin-top: 10px;
+  text-align: center;   /* Center the navigation bar content */
+  margin-top: 10px;     /* Add some space above the nav */
 }
 
 header nav a {
-  padding: 0 10px;
-  background-color: grey;  /* you can change this color */
-  color: white;
-  text-decoration: none;
-  margin: 0 5px;
-  border-radius: 5px;
+  padding: 0 10px;           /* Add spacing inside the link buttons */
+  background-color: grey;    /* Button background (you can change it) */
+  color: white;              /* Text color */
+  text-decoration: none;     /* Remove underline from links */
+  margin: 0 5px;             /* Space between nav buttons */
+  border-radius: 5px;        /* Slightly round corners */
 }
 
 header nav a:hover {
-  background-color: darkgrey;
+  background-color: darkgrey;  /* Change background when hovered */
 }
 
 /* Center the featured image */
 #featured-property figure {
-  text-align: center;
+  text-align: center;     /* Center everything inside <figure> */
 }
 
 #featured-property img {
-  display: block;
-  margin: 0 auto;
-  max-width: 900px;
-  width: 100%;
+  display: block;         /* Make image a block element */
+  margin: 0 auto;         /* Center horizontally */
+  max-width: 900px;       /* Prevent image from being too large */
+  width: 100%;            /* Make image responsive (fit parent width) */
 }
 
 /* Style the image caption */
 #featured-property figcaption {
-  text-align: center;
-  font-size: 0.9em;
-  margin-top: 5px;
-  color: #555;
+  text-align: center;   /* Center caption text */
+  font-size: 0.9em;     /* Make caption text slightly smaller */
+  margin-top: 5px;      /* Add space above caption */
+  color: #555;          /* Grayish color for caption */
 }
 
 /* Style the paragraphs under the image */
 #featured-property p {
-  width: 800px;
-  margin: 15px auto;
-  text-align: center;
-  line-height: 1.5;
+  width: 800px;         /* Set fixed width for text area */
+  margin: 15px auto;    /* Center horizontally with margin auto */
+  text-align: center;   /* Center text */
+  line-height: 1.5;     /* Add spacing between lines for readability */
 }
 
 /* Footer details section */
 #details {
-  margin-top: 30px;
-  overflow: hidden;
+  margin-top: 30px;     /* Add space above footer section */
+  overflow: hidden;     /* Clear floats inside the container */
 }
 
 #details div {
-  float: left;
-  width: 25%;
-  text-align: center;
-  background-color: red;  /* you can change this */
-  color: white;
-  padding: 20px 10px;
-  box-sizing: border-box;
+  float: left;               /* Place divs side by side horizontally */
+  width: 25%;                /* Each takes up 25% of the container (4 columns) */
+  text-align: center;        /* Center the text inside each div */
+  background-color: red;     /* Background color (can be changed) */
+  color: white;              /* White text */
+  padding: 20px 10px;        /* Add spacing inside each box */
+  box-sizing: border-box;    /* Include padding inside width calculation */
 }
-
